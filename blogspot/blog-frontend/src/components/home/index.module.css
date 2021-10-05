@@ -1,0 +1,25 @@
+.container{
+    display: block;
+    text-align: center;
+    padding: 70px 50px;
+}
+.home{
+    background-image: url('../../images/land.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: #686968;
+    background-blend-mode: multiply;
+}
+.container h2{
+    font-weight: 700;
+    background: rgb(0 0 0);
+    mix-blend-mode: color-dodge;
+    font-size: 49px;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    color: #a4b5af;
+    margin: 40px;
+}

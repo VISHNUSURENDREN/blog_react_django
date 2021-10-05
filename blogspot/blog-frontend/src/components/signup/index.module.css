@@ -1,0 +1,82 @@
+
+.logindiv{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 8% 0;
+    
+
+}
+.logincard{
+    width: 40%;
+    padding: 30px 20px;
+    border: 1px solid #d6eadf;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+.logincard h1{
+    text-align: center;
+    padding: 0px 10px;
+    color: #b8e0d2;
+    font-weight: 700;
+    font-family: 'Cinzel', serif;
+    
+}
+form, form div, form h1, form p, form a {
+    background: transparent;
+}
+form p{
+    text-align: center;
+}
+form p Link {
+    color: blue;
+}
+.inputdiv{
+    padding: 10px;
+}
+.inputdiv input{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #d6eadf;
+    border-left: 5px solid #d6eadf;
+    border-right: 5px solid #d6eadf;
+    outline: none;   
+    border-radius: 4px;
+    padding: 0 10px;
+    color: white;
+    font-size: 16px;
+}
+::placeholder {
+    color: #d6eadf;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #d6eadf;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #d6eadf;
+}
+
+
+.buttondiv{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+button{
+    background-color: #b8e0d278 !important;
+    color: white !important;
+    border:none !important;
+    padding: 3px 26px !important;
+    border-radius: 3px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+button:hover{
+    box-shadow: none ;
+    transition: 0.6s;
+}

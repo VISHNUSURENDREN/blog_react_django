@@ -1,0 +1,36 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #fcfafb;
+    color: #383A3B !important;
+    font-family: "Cheltenham", Times, serif !important;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+body{
+  /* background-color: transparent !important;
+  color: #383A3B !important; */
+  background-image: url('images/land.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-color: #686968 !important;
+  background-blend-mode: multiply;
+
+  font-family: "Cheltenham", Times, serif !important;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.4;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}

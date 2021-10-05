@@ -1,0 +1,58 @@
+html{
+    background-color: #809bce;  
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #3c3f42;   
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url('../../images/land.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+.flexcenter{
+    color: black;
+    width: 75%;
+    padding: 120px 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.flexcenter .innercontainer{
+    background: #d6eadf33 !important;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    margin-top: 15vh;
+}
+.flexcenter .innercontainer h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(214 234 223);
+}
+.flexcenter .innercontainer h1 span{
+    font-size: 130px;
+    color: #809bce;
+    text-shadow: -1px 0 #d6eadf, 0 1px #d6eadf, 1px 0 #d6eadf, 0 -1px #d6eadf;
+}
+
+.flexcenter .innercontainer p{
+    font-size: 32px;
+    color: white;
+    text-transform: capitalize;
+}
+.nounderline{
+    text-decoration: none;
+    color: #000000 !important;   
+    font-weight: 800; 
+}
+.flexcenter .innercontainer button{
+    font-size: 20px !important;
+    margin-bottom: 30px;
+    
+}
